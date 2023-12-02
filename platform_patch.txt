@@ -1,0 +1,10 @@
+--- platform_new/kernel/mstar/t31/4.9/drivers/mstar2/drv/hifi4dsp/hifi4dsp_audio_ipi/common/framework/Makefile	2022-12-14 15:31:18.000000000 -0800
++++ platform_new.patch/kernel/mstar/t31/4.9/drivers/mstar2/drv/hifi4dsp/hifi4dsp_audio_ipi/common/framework/Makefile	2023-01-26 16:10:29.100118524 -0800
+@@ -15,6 +15,7 @@
+ ccflags-y += \
+ 	-I$(srctree)/drivers/mstar2/drv/hifi4dsp/hifi4dsp_audio_ipi/mt8570 \
+ 	-I$(srctree)/drivers/mstar2/drv/hifi4dsp/hifi4dsp_audio_ipi/common/utility \
++	-I$(srctree)/drivers/mstar2/drv/hifi4dsp/hifi4dsp_audio_ipi/common/framework \
+ 	-I$(srctree)/drivers/mstar2/drv/hifi4dsp/hifi4dsp_ipi/mt8570 \
+ 	-I$(srctree)/drivers/mstar2/drv/hifi4dsp/hifi4dsp_ipi/common
+ 
